@@ -1,0 +1,1 @@
+This project goal is to share a package on PyPI.
