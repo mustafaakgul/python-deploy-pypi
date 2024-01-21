@@ -4,7 +4,7 @@ from .Generaldistribution import Distribution
 
 
 class Binomial(Distribution):
-    """ Binomial distribution class for calculating and
+    """Binomial distribution class for calculating and
     visualizing a Binomial distribution.
 
     Attributes:
@@ -13,10 +13,6 @@ class Binomial(Distribution):
         data_list (list of floats) a list of floats to be extracted from the data file
         p (float) representing the probability of an event occurring
         n (int) number of trials
-
-
-    TODO: Fill out all functions below
-
     """
 
     def __init__(self, prob=.5, size=20):
